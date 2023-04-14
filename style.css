@@ -1,0 +1,17 @@
+:root {
+  --rosa-escuro: #e833b2;
+  --rosa-claro: #f53fcd;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+  background-color: #dc6ebe;
+}
+
+.textoBold {
+  font-weight: bold;
+}
