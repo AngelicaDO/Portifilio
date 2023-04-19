@@ -1,17 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
 :root {
-  --rosa-escuro: #e833b2;
+  --neutro-escuro: #1a1a1a;
   --rosa-claro: #f53fcd;
+  --rosa-padrao: #f53fcd;
+  --rosa-escuro: #f53fcd;
 }
 
 body {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
+  background-color: var(--neutro-escuro);
+  font-family: monospace;
 }
 
 .cabecalho {
-  background-color: #dc6ebe;
+  background: var(--rosa-padrao);
+  background: linear-gradient(
+    to right,
+    rgba(245, 46, 187, 1) 0%,
+    rgba(220, 104, 245, 1) 100%
+  );
 }
-
+.angelica {
+  font-family: "Space Mono", monospace;
+  background: var(--rosa-padrao);
+  background: linear-gradient(
+    to right,
+    rgba(245, 46, 187, 1) 0%,
+    rgba(220, 104, 245, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 90px;
+  font-size: 70px;
+}
 .textoBold {
   font-weight: bold;
 }
+.home-img {
+  width: 400px;
+}
+.btn-custom {
+  background-color: black;
+  border-color: #f53fcd;
+  color: white;
+}
+
+.btn-custom:hover {
+  color: white;
+  background-color: #f53fcd;
+  border-color: #f53fcd;
+}
+
+.section1 {
+  margin-top: 200px;
+}
+.section2 {
+  margin-top: 250px;
+}
+.section3 {
+  margin-top: 350px;
+}
+
+.sobre-img {
+  width: 250px;
+  border-left: 8px solid #f53fcd;
+}
+
+/* CSS
+- ELEMENTO GERAL
+background-color -> cor de fundo
+border-color -> cor da borda 
+border ->  border: 10px solid;
+width -> largura
+height -> altura
+padding -> espaçamento interno,  de todos os lados
+margin -> espaçamento externo
+
+- FONTES
+font-weight -> é o peso da fonte -- bold, italico ...
+font-family -> fonte do projeto
+font-size -> tamanho da fonte
+color > core de texto
+
+
+
+ */
+
+/* HTML
+
+
+*/
+
+/* BOOTSTRAP
+  lg -> tamanho large da tela
+  mt -> margin top
+  mb -> margin botton, margin de baixo
+  py -> padding y , tanto topo como margin de baixo
+  px -> padding x , direita e esquerda
+
+  GRID
+  col-lg-5 ->   os numeros se refere ao tanto de colunas que vai ocupar em determinado tamanho da tela ->(large)
+  col-md-7 -> col(coluna)-md(tamanho da tela em px)-numero(de 1-12 que as colunas vão ocupar no grid) ->(medium)
+  col-sm-12 -> (small)
+
+
+  FONTE
+  text-center
+  text-color
+
+
+
+
+
+   */
+
+/* JAVASCRIPT
+    */
