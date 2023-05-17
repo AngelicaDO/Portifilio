@@ -52,20 +52,27 @@ body {
 }
 
 .section1 {
-  margin-top: 200px;
+  margin-top: 300;
 }
 .section2 {
-  margin-top: 250px;
+  margin-top: 200px;
 }
 .section3 {
-  margin-top: 350px;
+  margin-top: 200px;
 }
 
 .sobre-img {
   width: 250px;
   border-left: 8px solid #f53fcd;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Inverte a cor das setas */
+}
 
+/* .img-scania {
+  width: 200px;
+} */
 /* CSS
 - ELEMENTO GERAL
 background-color -> cor de fundo
